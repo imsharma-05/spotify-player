@@ -1,0 +1,115 @@
+body{
+    background-color: azure;
+    overflow-y: hidden;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.topnav {
+    padding-top: 2px;
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+}
+
+.topnav img{
+    width: 46px;
+    
+    }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  background-color: black;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #04AA6D;
+  color: black;
+  border-radius: 42px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 42px;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+
+}
+
+.container{
+    min-height: 100vh;
+    margin: 1px 0;
+    display: flex;
+    background-image: url('/img/bg2.jpg');
+  
+}
+
+#btext{
+    color: #ffff;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-left: 280px;
+    text-align: center;
+   
+}
+
+.btn-work{
+
+    width: 80px;
+    height: 50px;
+    margin: 12px auto;
+    padding-left: 65px;
+    padding-right: 50px;
+    display: flex;
+    line-height: 50px;
+    background-color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 34px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.btn-work:hover{
+  background-color: white;
+  color: gold;
+}
+
+#text1{
+  display: inline-block;
+  margin: 70px 650px;
+  font-size: 35px;
+  font-weight: 900;
+
+}
+
+.symbols
+{
+
+  display: inline-block;
+  list-style-type: none;
+  margin: 70px 650px;
+  font-size: 35px;
+  font-weight: 900;
+  
+
+}
